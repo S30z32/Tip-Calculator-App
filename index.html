@@ -8,28 +8,41 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <section>  
+    <section id="containerUno">  
         <h1>Tip Calculator</h1> 
         <h2>Split the bill with your friends.</h2>
         <section>   
             <h2>Bill Amount $</h2>
-            <div id='billAmount'>$0.00</div>
+            <input id="billAmount" type="text" placeholder='$0.00' >
         </section>
         <section id='secondSection'>
             <section class='deux'>
-                <h2>Tip %</h2>
+                <h2>Tip (%)</h2>
                 <input id="tipAmount" type="text" placeholder='20%' >
             </section>
             <section class='deux'>
                 <h2>People</h2>
                 <input id="peopleAmount" type="text" placeholder='2' >
             </section>
-            <button class="favorite styled" type="button">Calculate</button>
-
-    
+            
+        </section>
+        <button id='calcBttn'  class="favButton styled" type="button">Calculate</button>
+            <hr />
+        <section id="sacResults">   
+            <section class="sectionResults">
+                <h2>Tip Amount</h2>
+                <span id="tipTotal">$0.00</span>
+            </section>
+            <section class="sectionResults">
+                <h2>Bill Amount</h2>
+                <span id="billAm">$0.00</span>
+            </section>
+        </section>
+        <section id="resultSec">
+            <h2>Each Person Pays</h2>
+            <h2 id="totalResult">$</h2>
 
         </section>
-
 
     </section>
 

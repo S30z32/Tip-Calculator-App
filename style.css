@@ -1,0 +1,36 @@
+#containerUno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 34, 58);
+    height: 70%;
+    width: 30rem;
+    border-color: 3pix solid rgb(16, 207, 16);
+    box-shadow:;
+    border-radius: 50px ;
+}
+
+#secondSection{
+    display: flex;
+    flex-direction: row;
+    padding:0 0 1rem 0;
+
+}
+
+.favButton{
+
+    background-color: blue;
+    color:whitesmoke;
+    height: 3rem;
+    width: 21rem;
+    border-radius: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(68, 68, 120);
+    color:rgb(243, 233, 233);
+  
+}
