@@ -1,3 +1,4 @@
+
 #containerUno{
     display: flex;
     flex-direction: column;
@@ -8,7 +9,7 @@
     width: 25rem;
     border-color: 3pix solid rgb(16, 207, 16);
     box-shadow:;
-    border-radius: 30px ;
+    border-radius: 30px;
     padding: 2% 0 0 0;
     text-align: left;
 }
@@ -20,13 +21,13 @@
 }
 
 .fontSizeCalc{
-    font-size:1rem ;
+    font-size:1rem;
     color:rgb(95, 136, 170);
 }
 
 .fillerV{
     background-color: rgba(49, 49, 129, 0.838);
-    border-radius:7px ;
+    border-radius:7px;
     height: 2rem;
     width: 8rem;
     color: whitesmoke;
@@ -47,9 +48,7 @@ hr{
 
 #billAmount{
     width: 100%;
-    
 }
-
 
 #secondSection{
     display: flex;
@@ -61,30 +60,39 @@ hr{
 
 #sacResults{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 21rem;
-   
+    
 }
 
 #resultSec{
     display: flex;
     flex-direction: column;
-    height: 10rem;
+    justify-content: center;
+    height: 4rem;
     width: 21rem;
-    background-color:  rgba(49, 49, 129, 0.838);
-
+    background-color: rgba(49, 49, 129, 0.838);
+    border-radius: 10px;
 }
 
 .sectionResults{
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
+.sectionResults h2{
+    margin: 0;
+}
+
+#resultSec h2{
+    margin: 0;
+}
 
 .favButton{
-
     background-color: rgb(51, 51, 177);
     color:whitesmoke;
     height: 3rem;
